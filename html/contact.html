@@ -16,34 +16,50 @@
   </head>
   <body>
     <header>
-      <nav class="header_menu">
+      <input type="checkbox" id="toggle" />
+
+      <nav>
         <div>
           <h1>Logo</h1>
         </div>
-        <div class="header_menu__links">
-          <a href="#">Home</a>
-          <a href="#">Features</a>
-          <a href="#">Hotel</a>
-          <a href="contact.html">Contact</a>
-          <a href="#">Login</a>
-        </div>
-        <div>
-          <a href="../index.html"><button class="btn">Explore</button></a>
-        </div>
+
+        <label class="navbar-toggler" for="toggle">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </label>
+
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link">Hotel</a>
+          </li>
+          <li class="nav-item">
+            <a href="contact.html" class="nav-link">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../index.html">Explore</a>
+          </li>
+        </ul>
       </nav>
     </header>
     <div class="container">
       <div class="contact-box">
         <div class="left"></div>
         <div class="right">
-          <h2>Contact Us</h2>
-          <input type="text" class="field" placeholder="Your Name" />
-          <input type="text" class="field" placeholder="Your Email" />
-          <input type="text" class="field" placeholder="Phone" />
-          <textarea placeholder="Message" class="field"></textarea>
-          <button class="btn_send">Send</button>
+          <form>
+            <h2>Contact Us</h2>
+            <textarea placeholder="Message" class="field"></textarea>
+            <button type="submit" class="btn_send">Send</button>
+          </form>
         </div>
       </div>
     </div>
   </body>
+  <script src="../js/contact.js"></script>
 </html>
