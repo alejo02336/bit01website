@@ -1,0 +1,63 @@
+body {
+  background-image: url("../assets/fondo-gracias.png");
+  background-size: cover;
+  justify-content: space-between;
+  flex-direction: column;
+  display: flex;
+}
+
+.gratitude_section {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.gratitude_section img {
+  width: auto;
+  height: 85vh;
+}
+
+.gratitude_container {
+  background-color: white;
+  border-radius: 5px;
+  height: 60%;
+  width: 30%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px 30px;
+}
+
+.gratitude_container h1 {
+  color: #0081c9;
+}
+
+.gratitude_container p {
+  color: black;
+}
+
+.gratitude_container div {
+  text-align: left;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 905px) {
+  .gratitude_container {
+    width: 80%;
+    margin-top: 20px;
+  }
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-size: 14px;
+}

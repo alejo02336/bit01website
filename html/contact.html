@@ -51,11 +51,28 @@
       <div class="contact-box">
         <div class="left"></div>
         <div class="right">
-          <form>
+          <form id="myForm">
             <h2>Contact Us</h2>
-            <input type="text" class="field" placeholder="Your name" />
-            <input type="text" class="field" placeholder="Your last name" />
-            <textarea placeholder="Message" class="field"></textarea>
+            <input
+              id="name"
+              required
+              type="text"
+              class="field"
+              placeholder="Your name"
+            />
+            <input
+              id="lastname"
+              required
+              type="text"
+              class="field"
+              placeholder="Your last name"
+            />
+            <textarea
+              id="message"
+              required
+              placeholder="Message"
+              class="field"
+            ></textarea>
             <button type="submit" class="btn_send">Send</button>
           </form>
         </div>
