@@ -5,8 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact</title>
-    <link rel="stylesheet" href="/css/contact.css" />
     <link rel="stylesheet" href="/css/index.css" />
+    <link rel="stylesheet" href="/css/contact.css" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -19,9 +20,7 @@
       <input type="checkbox" id="toggle" />
 
       <nav>
-        <div>
-          <h1>Logo</h1>
-        </div>
+        <img class="logo" src="../assets/logo.png" alt="" srcset="" />
 
         <label class="navbar-toggler" for="toggle">
           <span class="bar"></span>
@@ -54,12 +53,16 @@
         <div class="right">
           <form>
             <h2>Contact Us</h2>
+            <input type="text" class="field" placeholder="Your name" />
+            <input type="text" class="field" placeholder="Your last name" />
             <textarea placeholder="Message" class="field"></textarea>
             <button type="submit" class="btn_send">Send</button>
           </form>
         </div>
       </div>
     </div>
+
+    <footer class="footer"><p>Bit01website - Danny Alejandro 🚀</p></footer>
   </body>
   <script src="../js/contact.js"></script>
 </html>
